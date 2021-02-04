@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- *main - generates a random number and checks if the last digit is greater than 5, 0 or less than 6 and not 0.
+ *main - generates a random number and checks if the last digit is greater
+ * than 5 0 or less than 6 and not 0.
  *Return: Always 0
  */
 int main(void)
