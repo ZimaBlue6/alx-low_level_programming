@@ -9,6 +9,6 @@ int main(void)
 int n;
 for (n = 0; n < 10; n = n + 1)
 putchar(n);
-putchar('\n');
+putchar(10);
 return (0);
 }
