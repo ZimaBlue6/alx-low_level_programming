@@ -7,7 +7,7 @@
 void print_alphabet(void)
 {
 int n;
-for (n = 97; n < 123; n = n + 1)
+for (n = 'a'; n <= 'z'; n = n + 1)
 {
 _putchar(n);
 }
