@@ -3,7 +3,7 @@
 /**
  *main - using _putchar.
  *Return: Always 0
- */ 
+ */
 int main(void)
 {
 _putchar('H');
