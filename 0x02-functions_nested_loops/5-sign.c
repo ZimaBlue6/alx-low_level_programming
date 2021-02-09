@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *print_sign - a function that checks for lowercase character.
- *@n: checking if character is an alphabetic character
+ *print_sign - a function that checks the sign of n
+ *@n: number to be checked
  *Return: -1 if negative, 0 if zero and +1 if positive
  */
 int print_sign(int n)
