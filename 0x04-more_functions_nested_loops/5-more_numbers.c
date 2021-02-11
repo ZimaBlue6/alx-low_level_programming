@@ -12,8 +12,10 @@ void more_numbers(void)
 	for (n = 0; n <= 9; n = n + 1)
 	{
 		for (k = 0; k <= 14; k = k + 1)
-		{	if (k >= 10)
-				_putchar('0' + k / 10);
+
+		{
+			if (k >= 10)
+			_putchar('0' + k / 10);
 			_putchar('0' + k % 10);
 		}
 		_putchar('\n');
