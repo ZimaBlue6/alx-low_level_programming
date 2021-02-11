@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *print_line - outputs 0 - 14, ten times
+ *print_line - draws a line with length = n
  *@n: the number of times the character _ should be printed
  */
 
