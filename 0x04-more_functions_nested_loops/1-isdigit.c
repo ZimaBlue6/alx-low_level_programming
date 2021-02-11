@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *_isdigit - a function that checks if c is a lowercase character
+ *_isdigit - a function that checks if c is a digit
  *@c: character to be checked
  *Return: 1 if true and 0 if false
  */
