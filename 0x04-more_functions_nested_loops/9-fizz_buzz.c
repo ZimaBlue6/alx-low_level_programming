@@ -12,7 +12,9 @@ int main(void)
 
 	for (n = 1; n <= 100; n = n + 1)
 	{
-		if (n % 3 == 0  && n % 5 == 0)
+		if (n == 1)
+			printf("1");
+		else if (n % 3 == 0  && n % 5 == 0)
 			printf(" FizzBuzz");
 		else if (n % 5 == 0)
 			printf(" Buzz");
