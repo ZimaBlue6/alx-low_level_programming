@@ -10,14 +10,12 @@
 
 void print_array(int *a, int n)
 {
-	int m = (sizeof(a) / 4) + 2;
+	int m = sizeof(a)/sizeof(int) + 2;
 
-	for (n = 0; a[n] != '\0'; n = n + 1)
-	{
-		if (n < m)
-			printf("%d, ", a[n]);
-		else if (n == m)
-			printf("%d", a[n]);
-	}
+	for (n = 0; n < m; n = n + 1)
+		printf("%d, ", a[n]);
+	if (n == m)
+		printf("%d", a[n]);
+
 	printf("\n");
 }
