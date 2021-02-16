@@ -10,7 +10,7 @@
 
 void print_array(int *a, int n)
 {
-	int m = (sizeof(a)/4) + 2;
+	int m = (sizeof(a) / 4) + 2;
 
 	for (n = 0; a[n] != '\0'; n = n + 1)
 	{
