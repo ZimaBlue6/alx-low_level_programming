@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * print_array - prints first n elements of array
- * @a: int array to display from
- * @n: number of elements to display
+ * *_strcpy - a function that copies a string
+ * @dest: target to copy to
+ * @src: source to copy from
  *
- * Return: void
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -17,5 +17,5 @@ char *_strcpy(char *dest, char *src)
 		n = n + 1;
 	}
 	dest[n] = '\0';
-	return dest;
+	return (dest);
 }
