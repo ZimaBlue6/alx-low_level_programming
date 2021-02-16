@@ -17,7 +17,7 @@ int _strlen(char *s)
 
 
 /**
- *rev_string - a function that everses a string
+ *rev_string - a function that reverses a string
  *@s: pointer
  */
 
