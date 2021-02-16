@@ -3,19 +3,19 @@
 
 /**
  *print_array - a function that prints n elements of an array of integers
- *@a: parray
+ *@a: array
  *@n: the number of elements of the array to be printed
  *Return: 0
  */
 
 void print_array(int *a, int n)
 {
-	int m = sizeof(a) / sizeof(int) + 2;
+	int m = 0;
 
-	for (n = 0; n < m; n = n + 1)
-		printf("%d, ", a[n]);
-	if (n == m)
-		printf("%d", a[n]);
-
+	for (n = n - 1; n >= 0; n = n - 1, m = m + 1)
+	{	printf("%d", a[m]);
+		if (n > 0)
+			printf(", ");
+	}
 	printf("\n");
 }
