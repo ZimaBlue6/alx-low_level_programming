@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *_strcat - a function that concatenates two strings
+ *reverse_array - a function that reverses two arrays
  *@a: array
  *@n: the number of elements of the array
  *Return: void
