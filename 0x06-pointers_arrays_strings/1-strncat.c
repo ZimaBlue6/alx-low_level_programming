@@ -20,6 +20,7 @@ int _strlen(char *s)
  *_strncat - a function that concatenates two strings up to n
  *@dest: target to copy to
  *@src: source to copy from
+ *@n: number of characters to concatenate
  *Return: dest
  */
 
