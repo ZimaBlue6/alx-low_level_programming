@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *rot13 - a function that capitalizes all words of a string
+ *rot13 - EBG13
  *@s: pointer
  *Return: char
  */
