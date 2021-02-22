@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *_strpbrk - a function that gets the length of a prefix substring
+ *_strpbrk - a function that searches a string for any of a set of bytes
  *@s: string to be scanned
  *@accept: string containing the characters to match
  *Return:  a pointer to the byte in s that matches one of the bytes in accept,
