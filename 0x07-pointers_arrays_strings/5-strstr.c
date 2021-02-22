@@ -1,5 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
+
+
 /**
  *_strstr - a function that locates a string in a string
  *@haystack: main string
@@ -10,11 +12,21 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+	while (*haystack != '\0')
+	{
+		char *begin = haystack;
+		char *found_str = needle;
 
-	do {
-		if (*needle == *haystack)
-			return (needle);
-	} while (*haystack++);
+		while (*found_str == *haystack && *found_str != '\0'
+			&& *haystack != '\0')
+		{
+			haystack++;
+			found_str++;
+		}
 
+		if (*found_str == '\0')
+			return (begin);
+		haystack = begin + 1;
+	}
 	return (NULL);
 }
