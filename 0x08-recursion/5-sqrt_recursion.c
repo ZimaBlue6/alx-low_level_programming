@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *perfect_sqrt - a function that checks if n is a perfect quare of a number i
+ *perfect_sqrt - a function that checks if n is a perfect square of a number i
  *@n: number to be checked if it is a perfect square
  *@i: number to check with
  *Return: square root of aperfect_sqrt given number or -1 to indicate an error
@@ -22,8 +22,6 @@ int perfect_sqrt(int n, int i)
 	else
 		return (perfect_sqrt(n, i + 1));
 }
-
-#include "holberton.h"
 
 /**
  *_sqrt_recursion - a function that returns the square root of a number
