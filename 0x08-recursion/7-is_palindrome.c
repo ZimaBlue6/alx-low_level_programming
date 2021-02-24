@@ -31,9 +31,7 @@ int palindrome_check(char *s, int start, int end)
 		return (0);
 	else if (s[start] == s[end])
 		return (palindrome_check(s, start + 1, end - 1));
-	else
-		return (0);
-
+	return (1);
 }
 
 
