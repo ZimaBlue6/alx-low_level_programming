@@ -13,8 +13,6 @@ int main(int argc, char *argv[])
 {
 	int i, addition = 0;
 
-	if (argc == 1)
-		printf("0\n");
 
 	for (i = 1; i < argc; i++)
 	{
@@ -23,8 +21,7 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-		else
-			addition = addition + atoi(argv[i]);
+		addition = addition + atoi(argv[i]);
 	}
 	printf("%d\n", addition);
 	return (0);
