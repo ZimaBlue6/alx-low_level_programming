@@ -17,16 +17,13 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	change = atoi(argv[1]);
 	cents = 0;
-
 	while (change >= 25)
 	{
 		cents++;
 		change = change - 25;
 	}
-
 	while (change > 0)
 	{
 		if (change >= 10)
