@@ -3,10 +3,9 @@
 #include <ctype.h>
 
 /**
- *main - a program that adds positive numbers
- *@argc: argument counter
- *@argv: argument vector
- *Return: 0
+ *digit_check - a program that adds positive numbers
+ *@s: pointer
+ *Return: 1 if true, 0 otherwise
  */
 
 int digit_check(char *s)
@@ -19,6 +18,13 @@ int digit_check(char *s)
 	}
 	return (1);
 }
+
+/**
+ *main - a program that adds positive numbers
+ *@argc: argument counter
+ *@argv: argument vector
+ *Return: 0
+ */
 
 int main(int argc, char *argv[])
 {
