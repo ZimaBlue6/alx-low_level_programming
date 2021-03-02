@@ -26,13 +26,13 @@ char *str_concat(char *s1, char *s2)
 	tot_len = n + i;
 	ptr = malloc(tot_len * sizeof(char));
 
-	if (ptr == 0)
+	if (ptr == 0 || !s1 || !s2)
 		return (NULL);
 	for (m = 0; s1[m] != 0; m++)
 		ptr[tot_count++] = s1[m];
 	for (m = 0; s2[m] != 0; m++)
 		ptr[tot_count++] = s2[m];
 
-
+	ptr[tot_count] = '\0';
 	return (ptr);
 }
